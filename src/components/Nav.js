@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
+// TODO Update to NAV
 export default function Nav() {
   return (
     <nav>
