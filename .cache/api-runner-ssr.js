@@ -1,4 +1,10 @@
 var plugins = [{
+      plugin: require('/Users/stevenvandenburg/Desktop/Projects/slick-slices-FE/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/Users/stevenvandenburg/Desktop/Projects/slick-slices-FE/node_modules/gatsby-source-sanity/gatsby-ssr'),
+      options: {"plugins":[],"projectId":"i8pmz3lb","dataset":"production","watchMode":true,"token":"skalQfJM588UMsdKkwyhXo3X8EPDHusnt0AOGCaj519b54uIpvd5pt6UrzqyslNBZIMsJum96fgpSVeiWYFCrJ0qNmjswwY6xROg0iC955O462Yqt4IvQqbscm0bPJlWKO4eU6e93tu5ZW1BS60q8h6Jr5cUFWCpnhGNIEK9fVSkmLVDL06G"},
+    },{
       plugin: require('/Users/stevenvandenburg/Desktop/Projects/slick-slices-FE/gatsby-ssr'),
       options: {"plugins":[]},
     }]
